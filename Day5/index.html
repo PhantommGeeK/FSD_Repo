@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="./script.js"></script> -->
+  </head>
+  <body>
+    <!-- <a href="https://abes.ac.in" >ABES Website</a>
+    <button onclick="display()">Change Link</button>
+    <script>
+      let p1=document.querySelector("a");
+      let b = true;
+      let display =()=>{
+        if(b){
+        p1.setAttribute('href','https://aktu.ac.in');
+        p1.innerText = "AKTU Website";
+        b=false;
+      }
+      else{
+        p1.setAttribute('href','https://abes.ac.in');
+        p1.innerText="ABES Website"
+        b=true;
+      }
+      }
+
+    </script> -->
+    <button onclick="display()">Click Me</button>
+    <script>
+      let display =()=>{
+        
+      const head = document.createElement("h1");
+      head.textContent = "I am a heading";
+
+      let b = document.querySelector("body");
+      b.appendChild(head);
+      }
+      
+      
+    </script>
+  </body>
+</html>
