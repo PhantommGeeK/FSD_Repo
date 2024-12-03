@@ -1,0 +1,29 @@
+.disp{
+    display:flex;
+    flex-direction: column;
+    background-color: #cd5e94;
+    gap:20px;
+    align-items: center;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.img{
+    width:100%;
+    height:300px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+button{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+}
